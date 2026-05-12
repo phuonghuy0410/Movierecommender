@@ -16,9 +16,7 @@ Dự án phù hợp cho:
 * Nghiên cứu Recommendation System
 * Học Machine Learning / Data Science
 * Thực hành xử lý dữ liệu với Python
-
 ---
-
 # ⚙️ Công nghệ sử dụng
 
 * Python
@@ -28,12 +26,7 @@ Dự án phù hợp cho:
 * Jupyter Notebook
 * TF-IDF Vectorizer
 * Cosine Similarity
-
 ---
-
-
----
-
 # 🧠 Ý tưởng hệ thống
 
 Hệ thống hoạt động theo hướng Collaborative Filtering.
@@ -50,7 +43,7 @@ Quy trình:
 
 # 📊 Thuật toán sử dụng
 
-## collaborative Filtering
+## Collaborative Filtering
 
 Hệ thống đề xuất phim dựa trên:
 
@@ -85,25 +78,7 @@ git clone <repository_url>
 cd movie_recommender
 ```
 
-## 2. Tạo môi trường ảo
-
-### Windows
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### Linux / macOS
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-## 3. Cài thư viện
+## 2. Cài thư viện
 
 ```bash
 pip install -r requirements.txt
@@ -111,16 +86,16 @@ pip install -r requirements.txt
 
 ---
 
-## 4. Chạy notebook
-
-```bash
-jupyter notebook
-```
-
+## 3. Chạy notebook
 Mở file:
 
 ```bash
 train.ipynb
+```
+## 4. Chạy Demo
+
+```bash
+streamlit run app.py
 ```
 
 ---
@@ -132,10 +107,8 @@ train.ipynb
 Có thể mở rộng thêm:
 
 * Hybrid Recommendation System
-* Collaborative Filtering
 * Deep Learning Recommendation
 * Giao diện Web bằng Flask/Django
-* Deploy bằng Streamlit
 * API Recommendation
 
 ---
