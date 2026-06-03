@@ -138,7 +138,6 @@ query = st.text_area(
     placeholder=(
         "Ví dụ: Inception\n"
         "hoặc: Phim kinh dị về ngôi nhà ma ám\n"
-        "hoặc: A comedy about two friends on a road trip"
     ),
     height=100,
 )
