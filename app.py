@@ -114,7 +114,7 @@ def _render_results(result: pd.DataFrame):
             with col1:
                 if avg_rating is not None:
                     st.metric(
-                        label="⭐ Đánh giá trung bình",
+                        label=" Đánh giá trung bình",
                         value=f"{avg_rating:.1f} / 5.0",
                     )
                 if not movie_ratings.empty:
